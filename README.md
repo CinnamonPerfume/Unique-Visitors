@@ -1,12 +1,13 @@
 The task is to develop a program that processes log and analyzes unique visits.
 
 Assume we register all visits to our WWW server. In particular, we register the users that access our server. Each user is given an unique id - an integer in the range [ 0 ; 99999 ]. The program is given the information on user access via the registration command, the command has the form + id, e.g.,
-
+<pre>
 + 123
 + 456
 + 123
 + 123
 + 789
+</pre>
 Here, user 123 accessed our server in positions 0, 2 and 3, user 456 accessed the server in position 1 and user 789 accessed the server in position 4.
 Next, we need to compute the unique users that accessed our server in a given range of time, For the sake of simplicity, we consider the position instead of time. The computation is requested by the analyze command. The command has the form ? from to where from and to are integer positions from where / to where compute the unique users. For the example above, a request ? 0 4 results in answer 3 / 5 (3 unique users in the range of length 5).
 

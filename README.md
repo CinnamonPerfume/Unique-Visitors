@@ -33,7 +33,7 @@ from is greater than to.
 Obviously, the input is also rejected if the command is neither registration nor analyze.
 
 Sample program runs:
-
+<pre>
 Requests:
 + 10
 > first visit
@@ -97,3 +97,4 @@ Requests:
 > first visit
 * 33
 Invalid input.
+</pre>

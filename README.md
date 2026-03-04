@@ -1,3 +1,5 @@
+Written: 21/11/2021
+
 The task is to develop a program that processes log and analyzes unique visits.
 
 Assume we register all visits to our WWW server. In particular, we register the users that access our server. Each user is given an unique id - an integer in the range [ 0 ; 99999 ]. The program is given the information on user access via the registration command, the command has the form + id, e.g.,

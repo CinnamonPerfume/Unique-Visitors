@@ -33,12 +33,12 @@ int commandQuestion(int from, int to, int *arr) {
 }
 
 int main() {
-    int array_main[1000000]; //Normally id create a dynamic array that doubles its capacity whenever needed but this time we dont have any memory limit so its free for all haha
+    int array_main[1000000]; //Normally id create a dynamic array that doubles its capacity whenever needed but this time we dont have any memory limit so its free for all.
     char command[2]; //Array for the operation whether it is "+ " or "? "
     int num, from, to, i;
     bool continuous_input = true;
     i = 0;
-    int array_unique_or_not[1000000]; //You need to threathen me with a gun to not make me give 1000000 to each array in this GODDAMN CODE
+    int array_unique_or_not[1000000];
     printf("Requests:\n");
 
     while(continuous_input == true) {
